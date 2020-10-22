@@ -1,19 +1,19 @@
-
-
-@font-face{
-	src: url(../Fonts/JosefinSans-Medium.ttf);
-	font-family: jos;
+@font-face {
+     src: url(../Fonts/JosefinSans-Medium.ttf);
+     font-family: jos;
 }
-body,html{
-	
-	
-	font-family: jos;
-	background-color: #F5F5F5;
-	color: #282C35;
-	margin: auto;
-	display: table;
-    border: 2px solid #008B8B;
-	padding: 30px 60px 30px 60px;
+
+
+body,
+html {
+
+     font-family: jos;
+     background-color: #F5F5F5;
+     color: #282C35;
+     margin: auto;
+     display: table;
+     border: 2px solid #008B8B;
+     padding: 30px 60px 30px 60px;
 }
 
 
@@ -21,11 +21,8 @@ body,html{
 
 
 .registration {
- 
-  text-align: center;
 
- padding: 20px 20px 20px 20px;
-  
- 
+     text-align: center;
+     padding: 20px 20px 20px 20px;
+
 }
-
