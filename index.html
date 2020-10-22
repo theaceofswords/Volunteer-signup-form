@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <title>Volunteer Form</title>
+
+ </head>
+ 
+<body>
+ <div class = "registration"><h1> VOLUNTEER REGISTRATION</h1></div>
+ <form id = "volform" class = "form">
+ <label> NAME </label><br>
+ <input type="text" name="fname" id="fname" required  placeholder="First Name" pattern = "[a-zA-Z]+" title="Characters only">
+ 
+ <label>  </label>
+ <input type="text" name="lname" id="lname" required placeholder="Last Name" pattern = "[a-zA-Z]+" title="Characters only"><br><br>
+ 
+ <label> EMAIL </label><br>
+ <input type="email" name="email" id="email" required placeholder="example@mail.com"><br><br>
+ 
+ <label> AGE </label><br>
+ <input type="number" min = "18" name="age" id="age"required placeholder="Minimum 18"><br><br>
+ 
+ <label>Mobile Carriers</label><br>
+ <select = name = "mobcar" id = "mobacr" required>
+ <option value = "">--select-- </option>
+ <option value = "bsnl"> BSNL </option>
+ <option value = "vi"> VI </option>
+ <option value = "jio"> JIO </option>
+ <option value = "airtel"> AIRTEL </option>
+ <option value = "other"> OTHER </option>
+ </select>
+ 
+  <br><br>
+  
+  
+ <label> Do You Have a Driving Licence? </label><br>
+ <select name = "option1" id = "newfeild1" onchange = "show()" required>
+ <option value = "">--select-- </option>
+ <option value = "yes"> YES </option>
+ <option value = "no"> NO </option>
+ </select>
+ 
+ <br>
+
+<br> 
+<class id = newfeild>
+<label> TYPE OF VEHICLE </label><br>
+ <select name = "option2" id = "newfeild2" >
+ <option value = "none">NONE </option>
+ <option value = "scooter"> SCOOTER </option>
+ <option value = "motorbike"> MOTORBIKE </option>
+ <option value = "car"> CAR </option>
+ <option value = "pickup"> PICKUP </option>
+ </select>
+ </class>
+ 
+ <br>
+ <br>
+ <label> HOW DID YOU LEARN ABOUT US </label><br>
+ <select name = "option3" id = "newfeild3" required>
+ <option value = "">--select-- </option>
+ <option value = "socialnet"> SOCIAL NETWORKS </option>
+ <option value = "poster"> POSTERS </option>
+ <option value = "friend"> FRIENDS </option>
+ <option value = "news"> NEWS </option>
+ </select>
+ <br>
+ <br>
+   <label>SKILLS YOU CAN OFFER </label><br>
+   <textarea name="message" rows="8" cols="60" placeholder="Type Here"></textarea>
+  <br><br>
+  
+  <label>DISCLAIMER</label><br>
+  <input type = "checkbox" id = "disc" value = "disclmr" required>
+  <label> I have read and agreed to the <a href="#">Terms and Servics</label><br><br>
+  
+  <input type="submit" value="Submit">
+  
+ </form>
+</class>
+ </div>
+ 
+ 
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ <script src="scripts/script.js"></script>
+</body>
+</html>
